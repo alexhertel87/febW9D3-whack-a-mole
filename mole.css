@@ -1,6 +1,6 @@
 .wgs {
-height: 482px;
-width: 640px;
+height: 241px;
+width: 320px;
 position: relative;
 display: inline-block;
 overflow: hidden;
@@ -8,14 +8,54 @@ overflow: hidden;
 
 .wgs__mole-head {
 position: absolute;
-height: 356px;
-width: 376px;
-left: 109px
+height: 178px;
+width: 188px;
+left: 55px;
+transition: margin-top 0.25s;
 }
 
 .wgs__dirt-pile {
     position: absolute;
-    height: 220px;
-    width: 640px;
+    height: 110px;
+    width: 320px;
     bottom: 0;
+}
+
+.wgs__mole-head--hidden{
+    margin-top: 241px;
+}
+
+.pf{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "wgs1 wgs2 wgs3 wgs4"
+    "wgs5 wgs6 wgs7 wgs8"
+    ;
+}
+
+.wgs1 {
+    grid-area: wgs1
+}
+.wgs2 {
+    grid-area: wgs2
+}
+.wgs3 {
+    grid-area: wgs3
+}
+.wgs4 {
+    grid-area: wgs4
+}
+.wgs5 {
+    grid-area: wgs5
+}
+.wgs6 {
+    grid-area: wgs6
+}
+.wgs7 {
+    grid-area: wgs7
+}
+.wgs8 {
+    grid-area: wgs8
 }
