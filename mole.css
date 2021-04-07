@@ -11,7 +11,6 @@ position: absolute;
 height: 178px;
 width: 188px;
 left: 55px;
-transition: margin-top 0.25s;
 }
 
 .wgs__dirt-pile {
@@ -23,6 +22,7 @@ transition: margin-top 0.25s;
 
 .wgs__mole-head--hidden{
     margin-top: 241px;
+    transition: margin-top 0.25s;
 }
 
 .pf{
